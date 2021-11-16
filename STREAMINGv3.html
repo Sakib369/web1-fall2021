@@ -1,0 +1,194 @@
+<!doctype html>
+
+<!--
+More CSS Flexbox
+Using Flexbox as a Link
+Streaming Services v3
+-->
+
+<html>
+    <head>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            header {
+                text-align:center;
+                background:lightgrey;
+                color:black;
+            }
+            nav {
+                background:darkblue;
+                color:white;
+                padding:2vh;
+            }
+            footer {
+                background:darkblue;
+                color:white;
+                padding:2vh;
+                height:10vh;
+            }
+            .container {
+                min-height:70vh;
+                background:azure;
+                color:black;
+                padding:2vh;
+                width:80%;
+                margin:auto;
+                display: flex;
+                flex-direction:row;
+                flex-wrap:wrap;
+                justify-content:center;
+            }
+            .box {
+                  flex-basis:40%;
+                  text-align: Center;
+                  border-radius:12px;
+                  overflow:hidden;
+                  background: azure;
+                  margin: 1rem;
+            }
+            .box-image {
+               height:30vh;
+               background:lightgrey;
+               overflow:hidden;
+            }
+            .box-image img {
+                 display:block;
+                 width:100%;
+            }
+            .box h3 {
+              background:red;
+              padding:.75rem;
+              font-size:1.25rem;
+            }
+            .box p {
+              padding:1rem;
+              font-size:1.15rem;
+              background: palegreen;
+            }
+            .box a {
+              color: black;
+              text-decoration: none;
+            }
+            .box:hover {
+               box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+            }
+            
+            
+            
+        </style>
+        <title>Streaming V3</title>
+    </head>
+    
+    <body>
+        <header>
+            <h1>Streaming V3</h1>
+            <p>
+                Ali Sakib<br>
+                Web 1, 4th HOUR<br>
+                11/12/21
+            </p>
+            <hr>
+        </header>
+        <nav>
+            Placeholder
+        </nav>
+        <div class="container">
+            <!-- Write your assignment code here -->
+            
+            <!-- Start of a box -->
+            <div class="box">
+               <a href="https://www.hulu.com/welcome?orig_referrer=https%3A%2F%2Fwww.google.com%2F" target="_blank">
+                <div class="box-image">
+                    <img src="https://assetshuluimcom-a.akamaihd.net/h3o/facebook_share_thumb_default_hulu.jpg" alt="Picture of Hulu">
+                </div>
+                <h3>Hulu</h3>
+                <p>
+                    This is the streaming service I use the most. I use this streaming service to watch anime, shows, and movies that other platforms don't have. What I like about this streaming service is that it allows me to download shows or movies.
+                </p>
+               </a>
+            </div>
+            <!-- End of a box -->
+            
+            <!-- Start of a box -->
+            <div class="box">
+               <a href="https://www.netflix.com/" target="_blank">
+                <div class="box-image">
+                    <img src="https://i.ytimg.com/vi/GV3HUDMQ-F8/maxresdefault.jpg" alt="Picture of Netflix">
+                </div>
+                <h3>Netflix</h3>
+                <p>
+                    This streaming service is similar to Hulu. It allows you towatch shows, movies, and animes. I like this platform because it has varity of shows and movies from different contries. Like hulu it should allow you to download shows and movies.
+                </p>
+               </a>
+            </div>
+            <!-- End of a box -->
+            
+            <!-- Start of a box -->
+            <div class="box">
+               <a href="https://www.crunchyroll.com/" target="_blank">
+                <div class="box-image">
+                    <img src="https://1000logos.net/wp-content/uploads/2021/05/Crunchyroll-logo.png" alt="Picture of crunchyroll">
+                </div>
+                <h3>Crunchyroll</h3>
+                <p>
+                    This is a really good platform to watch all the animes. This streming platform is for animes. I like this because it has all the animes there to watch dubbed and subbed.
+                </p>
+               </a>
+            </div>
+            <!-- End of a box -->
+            
+            <!-- Start of a box -->
+            <div class="box">
+               <a href="https://www.youtube.com/" target="_blank">
+                <div class="box-image">
+                    <img src="https://cdn.mos.cms.futurecdn.net/8gzcr6RpGStvZFA2qRt4v6.jpg" alt="Picture of youtube">
+                </div>
+                <h3>Youtube</h3>
+                <p>
+                    This is the platform I use the most because it has everything. You can listen to songs, watch entertainment videos, tutorials, and etc. I f you want to movies or shows you would have a monthly plan or buy it.
+                </p>
+               </a>
+            </div>
+            <!-- End of a box -->
+            
+            <!-- Start of a box -->
+            <div class="box">
+               <a href="https://www.hbomax.com/" target="_blank">
+                <div class="box-image">
+                    <img src="https://cdn.vox-cdn.com/thumbor/EJtxPdjD-rF82S74SzeXj7yMLJ8=/0x0:1584x890/1200x800/filters:focal(666x319:918x571)/cdn.vox-cdn.com/uploads/chorus_image/image/66848287/HBO_Max_Press_On_White_Horiz_300dpi_0.0.jpg" alt="picture of HBO Max">
+                </div>
+                <h3>HBO Max</h3>
+                <p>
+                    I have never used Hbo Max, but this platform has some pretty good reviews. And it also has a variety of shows that you might like. Hbo max might have shows that other platforms don't so that something to look uo to if you can find your show or movie.
+                </p>
+               </a>
+            </div>
+            <!-- End of a box -->
+            
+            <!-- Start of a box -->
+            <div class="box">
+               <a href="https://www.funimation.com/" target="_blank">
+                <div class="box-image">
+                    <img src="https://i.imgur.com/unYA3SK.jpg" alt="Picture of funimation">
+                </div>
+                <h3>Funimation</h3>
+                <p>
+                    This is another great streaming platform to all the poeple that enjoy watching anime. This platform is similar to crunchy roll and has a varity of animes to chose and watch.
+                </p>
+               </a>
+            </div>
+            <!-- End of a box -->
+            
+            
+            
+            
+        </div><!-- Closing tag for container -->
+        <footer>
+            Placeholder
+        </footer>
+    </body>
+</html>
