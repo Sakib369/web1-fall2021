@@ -1,0 +1,329 @@
+<!doctype html>
+<html>
+  <head>
+   
+    <!-- Nonvisible element in this section -->
+    <!-- CSS Goes here in STYLE tags-->
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      header {
+        color: black;
+        background: white;
+        padding: 1rem;
+        text-align: center;
+      }
+      nav {
+        color: white;
+        background: black;
+        padding: 1rem;
+      }
+      footer {
+        color: white;
+        background: black;
+        padding: 1rem;
+        min-height: 15vh;
+      }
+      .container {
+        color: black;
+        background: beige;
+        padding: 1rem;
+        min-height: 80vh;
+        width: 80%;
+        margin: auto;
+      }
+      .flex-container {
+        display:flex;
+        flex-direction: column;
+      }
+      .row {
+           display: flex;
+           flex-direction: row;
+           flex-wrap:nowrap;
+           background: Azure;
+           margin: 1vh auto;
+           width: 100%;
+      }
+      .row-item {
+         flex-basis: 100%;
+          text-align:center;
+          min-height: 30vh;
+          background: WhiteSmoke;
+          margin: 1vh;
+          border: 1px black solid;
+      }
+      .row-item h3 {
+          padding: 1.5rem;
+          font-size: 1.5rem;
+          background: Goldenrod;
+      }
+      .row-item P {
+          font-size: 1.15rem;
+          color: black;
+          padding: 1rem;
+      }
+      .row-movie {
+        height: 25vh;
+        background: MediumSpringGreen;
+      }
+      .flex-container h2 {
+        font-size: 2rem;
+        padding: 1rem;
+      }
+      .row-movie iframe {
+        display:block;
+        width: 100%;
+        height:100%;
+        }
+      
+      
+      
+      
+     
+    </style>
+    <!-- title tag for browser tab text-->
+    <title>Flexbox Favorite Music</title>
+  </head>
+  <body>
+    <header>
+      <h1>Flexbox rows: Favorite Music</h1>
+      <p>
+        Sakib Ali<br>
+        Date<br>
+        Web 1, 4th Hour
+      </p>
+    </header>
+    <nav>
+      Placeholder
+    </nav>
+    <div class="container">
+      <!-- Main page content here-->
+     <div class="flex-container">
+       
+       
+       <h2>Lil Wayne--Hip-Hop</h2>
+       <!-- Start of row 1-->
+       
+       <div class="row">
+          
+          <div class="row-item">
+            <div class="row-movie">
+              <!-- iframe from youtube will go here -->
+              <iframe src="https://www.youtube.com/embed/6cDv4mHEbxQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              
+            </div>
+            <h3>Mirrors</h3>
+            <p>
+               This song is saying that he struggles with being misunderstood. He feels like nobody can really feel his pain and struggles but him. He knows that success brings friends that aren't real. The deepest part in the song is that he says he's his only friend. Lonely and craving real love from his soul mate.
+            </p>
+          </div><!-- End row item -->
+          
+          
+          
+          <div class="row-item">
+            <div class="row-movie">
+              <!-- iframe from youtube will go here -->
+              <iframe src="https://www.youtube.com/embed/6gT2gJ4fX-Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              
+            </div>
+            <h3>Blunt Blowin</h3>
+            <p>
+               This song describes his swag and wealth and his relationship with people. He sings about his rise to the top and talk about life, and his attitude.
+            </p>
+          </div><!-- End row item -->
+          
+          
+          
+          <div class="row-item">
+            <div class="row-movie">
+              <!-- iframe from youtube will go here -->
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/Ws-3jWnOIpE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <h3>Mona Lisa</h3>
+            <p>
+               This song finds Lil Wayne and Kendrick Lamar spinning tales of deceptive women in their lives. Weezy tells the story of a deceitful woman who sets her "boyfriend" up for a robbery.
+            </p>
+          </div><!-- End row item -->
+         
+         
+      
+       </div><!-- End of row-->
+       
+       
+       
+              <h2>NBA Youngboy--Hip-Hop</h2>
+       <!-- Start of row 2-->
+       
+       <div class="row">
+          
+          <div class="row-item">
+            <div class="row-movie">
+              <!-- iframe from youtube will go here -->
+              <iframe src="https://www.youtube.com/embed/6MCSr65d9Xc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              
+            </div>
+            <h3>All in</h3>
+            <p>
+               The rapper addresses heartbreak and loss, while speaking on the traumatic experiences he's dealt with during his rough upbringing.
+            </p>
+          </div><!-- End row item -->
+          
+          
+          
+          <div class="row-item">
+            <div class="row-movie">
+              <!-- iframe from youtube will go here -->
+              <iframe src="https://www.youtube.com/embed/vnG2aQUJFwI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              
+            </div>
+            <h3>My window</h3>
+            <p>
+               Here, YoungBoy Never Broke Again reflects on his time in prison and his paranoia that people are out to get him. The rapper is on full alert as he watches out of his window for his enemies.
+            </p>
+          </div><!-- End row item -->
+          
+          
+          
+          <div class="row-item">
+            <div class="row-movie">
+              <!-- iframe from youtube will go here -->
+              <iframe src="https://www.youtube.com/embed/SavPsImSrTo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              
+            </div>
+            <h3>Terrotorial</h3>
+            <p>
+               On "Territorial," YoungBoy melodically raps his way through a story about his woman who holds it down while he's taking care of business.
+            </p>
+          </div><!-- End row item -->
+         
+         
+      
+       </div><!-- End of row-->
+       
+       
+       
+              <h2>Polo G--Hip-Hop</h2>
+       <!-- Start of row 3-->
+       
+       <div class="row">
+          
+          <div class="row-item">
+            <div class="row-movie">
+              <!-- iframe from youtube will go here -->
+              <iframe src="https://www.youtube.com/embed/_3LuZx06QhQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              
+            </div>
+            <h3>Be something</h3>
+            <p>
+               The track describes the drive that both rappers have, explaining how they've each coped through the hardest of times before finally making it big.
+            </p>
+          </div><!-- End row item -->
+          
+          
+          
+          <div class="row-item">
+            <div class="row-movie">
+              <!-- iframe from youtube will go here -->
+              <iframe src="https://www.youtube.com/embed/w2IhccXakkE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              
+            </div>
+            <h3>Rapstar</h3>
+            <p>
+               In the trap track, Polo G sings about being GOATed, his success in hip-hop so far, personal life, and fame and fortune.
+            </p>
+          </div><!-- End row item -->
+          
+          
+          
+          <div class="row-item">
+            <div class="row-movie">
+              <!-- iframe from youtube will go here -->
+              <iframe src="https://www.youtube.com/embed/7ALoFoQbVrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              
+            </div>
+            <h3>Chosen 1</h3>
+            <p>
+               On “Chosen 1,“ Polo G continues the theme of Die A Legend by rapping about his struggles while growing up through poverty and the loss of his grandmother. Additionally, he goes into detail about his goals for the upcoming years – and how he aims to get to the top of the rap game.
+            </p>
+          </div><!-- End row item -->
+         
+         
+      
+       </div><!-- End of row-->
+       
+       
+       
+              <h2>Asap Rocky--Hip-Hop</h2>
+       <!-- Start of row 4-->
+       
+       <div class="row">
+          
+          <div class="row-item">
+            <div class="row-movie">
+              <!-- iframe from youtube will go here -->
+              <iframe src="https://www.youtube.com/embed/Kbj2Zss-5GY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              
+            </div>
+            <h3>Praise the lord</h3>
+            <p>
+               The grainy split-screen visual follows simultaneous scenes of Rocky's life in Harlem and Skepta's in London, as they go about similar day-to-day activities like partying with their friends and riding bikes.
+            </p>
+          </div><!-- End row item -->
+          
+          
+          
+          <div class="row-item">
+            <div class="row-movie">
+              <!-- iframe from youtube will go here -->
+              <iframe src="https://www.youtube.com/embed/9rygYJn7AJQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              
+            </div>
+            <h3>L$D</h3>
+            <p>
+               He sings about only wanting LSD, saying “Them other drugs just don’t fit me right, girl, I really want love, sex, dream,” which represents not only his desire to fulfill his wants but also expresses to the listener that Rocky’s drug of choice (LSD) works to further fuel his desire for love and sex.
+            </p>
+          </div><!-- End row item -->
+          
+          
+          
+          <div class="row-item">
+            <div class="row-movie">
+              <!-- iframe from youtube will go here -->
+              <iframe src="https://www.youtube.com/embed/UtZBA1bVbcs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              
+            </div>
+            <h3>Everyday</h3>
+            <p>
+               The song finds Rocky pondering his place in the world. He explained the track's meaning "I'm talking about real like s---, man," he told the crowd. "The world is crazy, but I'll be fine sippin' my motherf--king wine. Be happy. Smoke weed. Sip wine."
+            </p>
+          </div><!-- End row item -->
+         
+         
+      
+       </div><!-- End of row-->
+       
+       
+       
+       
+       
+       
+     </div><!-- End flex container-->
+     
+     
+     
+     
+     
+     
+    </div>
+    <footer>
+      Footer
+    </footer>
+   
+   
+   
+  <!-- Don't delete these but do paste them -->
+  </body>
+</html>
